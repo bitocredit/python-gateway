@@ -15,7 +15,7 @@ pip install pythonGateway
 and use package like this:
 
 ```python
-    from pythonGateway.Api import BitocreditApi
+    from pythonGateway import BitocreditApi
     
     baseurl = "https://bitocredit.com/api/";
     token = "TOKEN"; # fill your token

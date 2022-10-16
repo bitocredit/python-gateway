@@ -16,7 +16,7 @@ class TestApi(unittest.TestCase):
         self.api = BitocreditApi(self.BASE_URL , self.TOKEN)
     
     def test_createWallet(self):
-        res = self.api.createWallet("1")
+        res = self.api.createWallet("1" , "tron")
         self.assertEqual(res['status'] , 200)
         self.assertEqual(res['message'] , "ok")
 

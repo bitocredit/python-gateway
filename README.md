@@ -22,7 +22,7 @@ and use package like this:
     
     Api = BitocreditApi(baseurl , token);
     
-    res = Api.createWallet("1")  # replace wallet_id with your wallet id
+    res = Api.createWallet("wallet_id" , "network")  # replace wallet_id with your wallet id and network type
     print(res)
 
 ```
@@ -46,7 +46,7 @@ endpoint : https://bitocredit.com/api/create/wallet/{token}
 <br>
 
 ```python
-    res = Api.createWallet("1")  # replace wallet_id with your wallet id
+    res = Api.createWallet("wallet_id" , "network")  # replace wallet_id with your wallet id and network type
     print(res)
     
 ```

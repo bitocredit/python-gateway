@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='pythonGateway',
-    version='1.0.0',
+    version='1.1',
     packages=['pythonGateway',],
     license='MIT',
     description = 'Python wrapper for Bitocredit API',

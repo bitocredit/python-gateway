@@ -12,8 +12,8 @@ class BitocreditApi:
 
     # create wallet method
 
-    def createWallet(self, wallet_id):
-        return self.__request("create/wallet", "post", {"wallet_id": wallet_id}, True)
+    def createWallet(self, wallet_id , network):
+        return self.__request("create/wallet", "post", {"wallet_id": wallet_id , "network": network}, True)
 
     # transaction check method
 

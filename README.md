@@ -1,5 +1,5 @@
-<h3 align="center" >Bitocredit python package</h3>
-<h5>python wrapper for Bitocredit API</h5>
+<h3 align="center" ><a href="https://bitocredit.com/document/en/post/python" >Bitocredit python package</a></h3>
+<h5>python wrapper for <a href="https://bitocredit.com/" >Bitocredit</a> API</h5>
 
 # usage
 install package using pip
